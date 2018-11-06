@@ -1,0 +1,7 @@
+Running: xsim.dir/testprbs_func_impl/xsimk -simmode gui -wdb testprbs_func_impl.wdb -simrunnum 0 -socket 56965
+Design successfully loaded
+Design Loading Memory Usage: 43380 KB (Peak: 43388 KB)
+Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 133316 KB (Peak: 190652 KB)
+Simulation CPU Usage: 30 ms

@@ -1,0 +1,1 @@
+-wto "65264244d23e4f19bd6bd64ec93dd81e" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "tb_oneBitFullAdder_behav" "xil_defaultlib.tb_oneBitFullAdder" -log "elaborate.log" 

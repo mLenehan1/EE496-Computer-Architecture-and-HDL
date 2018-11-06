@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/prandom/prandom.srcs/sources_1/new/random.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dff
+INFO: [VRFC 10-307] analyzing entity lfsr
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/prandom/prandom.srcs/sim_1/new/tb_random.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity testprbs

@@ -1,0 +1,41 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto f7ae48f5d8c14e33afa8988beeaa0504 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot testprbs_func_impl xil_defaultlib.testprbs -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture ibuf_v of entity unisim.IBUF [\IBUF(1,9)(1,1)(1,4)(1,7)\]
+Compiling architecture obuf_v of entity unisim.OBUF [\OBUF(1,9)(1,7)(1,4)\]
+Compiling architecture fdse_v of entity unisim.FDSE [fdse_default]
+Compiling architecture structure of entity xil_defaultlib.dff [dff_default]
+Compiling architecture structure of entity xil_defaultlib.dff_0 [dff_0_default]
+Compiling architecture structure of entity xil_defaultlib.dff_1 [dff_1_default]
+Compiling architecture structure of entity xil_defaultlib.dff_2 [dff_2_default]
+Compiling architecture structure of entity xil_defaultlib.dff_3 [dff_3_default]
+Compiling architecture structure of entity xil_defaultlib.dff_4 [dff_4_default]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0110100110010110")(0...]
+Compiling architecture structure of entity xil_defaultlib.dff_5 [dff_5_default]
+Compiling architecture structure of entity xil_defaultlib.dff_6 [dff_6_default]
+Compiling architecture structure of entity xil_defaultlib.dff_7 [dff_7_default]
+Compiling architecture structure of entity xil_defaultlib.dff_8 [dff_8_default]
+Compiling architecture structure of entity xil_defaultlib.dff_9 [dff_9_default]
+Compiling architecture structure of entity xil_defaultlib.dff_10 [dff_10_default]
+Compiling architecture structure of entity xil_defaultlib.dff_11 [dff_11_default]
+Compiling architecture structure of entity xil_defaultlib.dff_12 [dff_12_default]
+Compiling architecture structure of entity xil_defaultlib.dff_13 [dff_13_default]
+Compiling architecture structure of entity xil_defaultlib.dff_14 [dff_14_default]
+Compiling architecture structure of entity xil_defaultlib.lfsr [lfsr_default]
+Compiling architecture behavior of entity xil_defaultlib.testprbs
+Built simulation snapshot testprbs_func_impl

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Oct  3 17:16:54 2018
+# Process ID: 4077
+# Current directory: /home/mlenehan/gates2/gates2.runs/impl_1
+# Command line: vivado -log top_gates2.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_gates2.tcl -notrace
+# Log file: /home/mlenehan/gates2/gates2.runs/impl_1/top_gates2.vdi
+# Journal file: /home/mlenehan/gates2/gates2.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source top_gates2.tcl -notrace

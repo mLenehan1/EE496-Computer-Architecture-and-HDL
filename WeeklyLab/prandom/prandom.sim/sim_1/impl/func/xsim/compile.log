@@ -1,0 +1,20 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/prandom/prandom.sim/sim_1/impl/func/xsim/testprbs_func_impl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dff
+INFO: [VRFC 10-307] analyzing entity dff_0
+INFO: [VRFC 10-307] analyzing entity dff_1
+INFO: [VRFC 10-307] analyzing entity dff_10
+INFO: [VRFC 10-307] analyzing entity dff_11
+INFO: [VRFC 10-307] analyzing entity dff_12
+INFO: [VRFC 10-307] analyzing entity dff_13
+INFO: [VRFC 10-307] analyzing entity dff_14
+INFO: [VRFC 10-307] analyzing entity dff_2
+INFO: [VRFC 10-307] analyzing entity dff_3
+INFO: [VRFC 10-307] analyzing entity dff_4
+INFO: [VRFC 10-307] analyzing entity dff_5
+INFO: [VRFC 10-307] analyzing entity dff_6
+INFO: [VRFC 10-307] analyzing entity dff_7
+INFO: [VRFC 10-307] analyzing entity dff_8
+INFO: [VRFC 10-307] analyzing entity dff_9
+INFO: [VRFC 10-307] analyzing entity lfsr
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/prandom/prandom.srcs/sim_1/new/tb_random.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity testprbs

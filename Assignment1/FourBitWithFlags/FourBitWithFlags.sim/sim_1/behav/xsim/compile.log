@@ -1,0 +1,18 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment1/FourBitWithFlags/FourBitWithFlags.srcs/sources_1/new/fourBitAddSub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fourBitAddSub
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment1/FourBitWithFlags/FourBitWithFlags.srcs/sources_1/new/fullAdder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fullAdder
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment1/FourBitWithFlags/FourBitWithFlags.srcs/sim_1/new/tb_fourBitWithFlags.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_fourBitAddSub
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment1/FourBitWithFlags/FourBitWithFlags.srcs/sim_1/new/tb_fourBitWithFlags.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_fourBitAddSub
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment1/FourBitWithFlags/FourBitWithFlags.srcs/sources_1/new/fourBitAddSub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fourBitAddSub
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment1/FourBitWithFlags/FourBitWithFlags.srcs/sources_1/new/fourBitAddSub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fourBitAddSub
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment1/FourBitWithFlags/FourBitWithFlags.srcs/sources_1/new/fourBitAddSub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fourBitAddSub
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment1/FourBitWithFlags/FourBitWithFlags.srcs/sources_1/new/fullAdder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fullAdder
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment1/FourBitWithFlags/FourBitWithFlags.srcs/sources_1/new/fourBitAddSub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fourBitAddSub

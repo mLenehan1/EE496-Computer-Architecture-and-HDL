@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../prandom.srcs/sources_1/new/random.vhd" \
+"../../../../prandom.srcs/sim_1/new/tb_random.vhd" \
+
+# Do not sort compile order
+nosort
