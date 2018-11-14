@@ -5,6 +5,6 @@ typeset:
 	  --from         markdown       \
 	  --to           latex          \
 	  --template     template.tex   \
-	  --out          Assignment1Report.pdf \
+	  --out          Assignment2Report.pdf \
 	  --latex-engine   xelatex        \
-	  Assignment1Report.md
+	  Assignment2Report.md
