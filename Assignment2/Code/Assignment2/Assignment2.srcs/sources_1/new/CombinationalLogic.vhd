@@ -65,32 +65,32 @@ architecture structural_view of CombinationalLogic is
     end component;
     signal ALU_Result, Shift_Result, LUT_Result : unsigned(N-1 downto 0);
 begin
-  ALU port map(
-                A_bus => A,
-                B_Bus => B,
-                Ctrl => ALU_Ctrl,
-                ALU_Result => ALU_Out
-              );
---  Shifter port map(
---                B_Bus => B,
---                Ctrl => Shift_Ctrl,
---                Shift_Result => Shift_Out
---                  );
---  LUT port map(
---                A_Bus => A,
---                Ctrl => LUT_En,
---                LUT_Result => LUT_Out
---              );
+  ALU_Map : ALU
+    port map(
+              A => A_bus,
+              B => B_Bus,
+              ALU_Ctrl => Ctrl,
+              ALU_Out => ALU_Result
+            );
+  Shifter_Map : Shifter 
+    port map(
+              B => B_Bus,
+              Shift_Ctrl => Ctrl,
+              Shift_Out => Shift_Result
+            );
+  LUT_Map : LUT 
+    port map(
+              A => A_Bus,
+              LUT_En => Ctrl,
+              LUT_Out => LUT_Result
+            );
   process(A_Bus, B_Bus, Ctrl)
     begin
-    case(Ctrl) is
-    when "0000" to "0110" =>
-      ;
-    when "1000" to "1011" =>
-      ;
-    when "1100" =>
-      ;
-    when others => Result <= A_Bus;
+      if(Ctrl = "1100") then Result <= LUT_Result;
+      elsif(Ctrl(3) = '1') then Result <= Shift_Result;
+      elsif(Ctrl(3) = '0') then Result <= ALU_Result;
+      else Result <= ALU_Result;
+      end if; 
   end process;
 
 end ;
