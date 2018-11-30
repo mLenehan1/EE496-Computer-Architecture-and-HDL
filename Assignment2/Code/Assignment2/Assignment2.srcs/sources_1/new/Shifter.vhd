@@ -39,15 +39,15 @@ begin
   process(B,Shift_Ctrl)
     begin
       case(Shift_Ctrl) is
-      when "1000" => -- Rotate Right
-        Shift_out <= B ror M;  -- shift left logic, the number of bits specified in B
-      when "1001" => -- Rotate Left
-        Shift_out <= B rol M;
-      when "1010" => --  Shift Left
-        Shift_out <= B sll M;
-      when "0111" => -- Shift Right
-        Shift_out <= B srl M;
-      when others => Shift_out <= B;
+      when x"8" => -- Rotate Right
+        Shift_out <= rotate_right(B, M);  -- shift left logic, the number of bits specified in B
+      when x"9" => -- Rotate Left
+        Shift_out <= rotate_left(B, M);
+      when x"A" => --  Shift Left
+        Shift_out <= shift_left(B, M);
+      when x"B" => -- Shift Right
+        Shift_out <= shift_right(B, M);
+      when others => Shift_out <= x"0000";
     end case;
   end process;
 end Behavioral;

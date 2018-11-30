@@ -21,28 +21,29 @@
 
 library ieee;
 use ieee.std_logic_1164.all;
-use ieee.std_logic_unsigned.all;
+use ieee.NUMERIC_STD.all;
 
-entity Registers is
-  port(
-       reset, set, clock, enable: in std_logic;
-       d_in : in std_logic_vector (7 downto 0);
-       q_out: out std_logic_vector (7 downto 0)
+entity InRegister is
+  generic (N : positive := 16; M : positive :=4);
+  port( reset, clock : in std_logic;
+        A_In, B_In : in unsigned(N-1 downto 0);
+        Ctrl_In : in unsigned(M-1 downto 0);
+        A_Out, B_Out: out unsigned(N-1 downto 0);
+        Ctrl_Out : out unsigned(M-1 downto 0)
       );
-  end Registers;
---flip-flop with asynchronous reset & set
-architecture beh of Registers is
+  end InRegister;
+--flip-flop with asynchronous reset
+architecture beh of InRegister is
   begin
-    asr_clk_en: process (reset, set, clock, enable)
+    asr_clk_en: process (reset,clock)
   begin
-    if (reset = '0') then   --asynchronous reset
-      q_out <= (others => '0'); --"00000000"; 
-    elsif (set = '0') then  --asynchronous set
-      q_out <= (others => '1'); --"11111111"; 
+    if (reset = '1') then   --asynchronous reset
+      A_Out <= (others => '0'); --x"0000";
+      B_Out <= (others => '0'); -- x"0000"; 
     elsif (clock'event and clock='1') then --rising_edge(clk)
-      if (enable = '1') then--clock enable
-        q_out <= d_in;
-      end if;
+        A_Out <= A_In;
+        B_Out <= B_In;
+        Ctrl_Out <= Ctrl_In;
     end if;
   end process asr_clk_en;
 end beh;

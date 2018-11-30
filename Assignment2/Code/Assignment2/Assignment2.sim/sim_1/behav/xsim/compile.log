@@ -1,0 +1,307 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CombinationalLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CombinationalLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/LUT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/Registers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/OutRegister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity OutRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/LUT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+ERROR: [VRFC 10-1412] syntax error near := [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd:64]
+ERROR: [VRFC 10-1471] type error near ns ; current type time; expected type  void [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd:64]
+ERROR: [VRFC 10-1412] syntax error near := [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd:65]
+ERROR: [VRFC 10-1471] type error near ns ; current type time; expected type  void [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd:65]
+ERROR: [VRFC 10-1412] syntax error near := [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd:66]
+ERROR: [VRFC 10-1471] type error near ns ; current type time; expected type  void [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd:66]
+ERROR: [VRFC 10-1412] syntax error near := [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd:67]
+ERROR: [VRFC 10-1471] type error near ns ; current type time; expected type  void [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd:67]
+ERROR: [VRFC 10-1412] syntax error near := [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd:68]
+ERROR: [VRFC 10-1471] type error near ns ; current type time; expected type  void [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd:68]
+ERROR: [VRFC 10-1412] syntax error near := [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd:69]
+ERROR: [VRFC 10-1471] type error near ns ; current type time; expected type  void [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd:69]
+ERROR: [VRFC 10-1412] syntax error near := [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd:70]
+ERROR: [VRFC 10-1471] type error near ns ; current type time; expected type  void [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd:70]
+ERROR: [VRFC 10-1412] syntax error near := [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd:71]
+ERROR: [VRFC 10-1471] type error near ns ; current type time; expected type  void [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd:71]
+ERROR: [VRFC 10-1412] syntax error near := [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd:72]
+ERROR: [VRFC 10-1471] type error near ns ; current type time; expected type  void [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd:72]
+ERROR: [VRFC 10-1412] syntax error near := [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd:73]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+ERROR: [VRFC 10-91] m is not declared [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd:47]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd:39]
+INFO: [VRFC 10-240] VHDL file /home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CombinationalLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CombinationalLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CombinationalLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CombinationalLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CombinationalLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CombinationalLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CombinationalLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CombinationalLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CombinationalLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CombinationalLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CombinationalLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CombinationalLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/synchronousSystem.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity synchronousSystem
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/register_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity register_file
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CombinationalLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CombinationalLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CombinationalLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CombinationalLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CombinationalLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CombinationalLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/Registers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/OutRegister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity OutRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/synchronousSystem.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity synchronousSystem
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CtrlDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CtrlDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CombinationalLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CombinationalLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CombinationalLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CombinationalLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/synchronousSystem.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity synchronousSystem
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_combLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_combLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_synchReg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_synchReg
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_synchReg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_synchReg
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen2
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CombinationalLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CombinationalLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/OutRegister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity OutRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen2
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/LUT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/LUT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/LUT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/LUT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/LUT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/LUT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CtrlDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CtrlDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CombinationalLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CombinationalLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/LUT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/Registers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_synchReg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_synchReg
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/Registers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/OutRegister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity OutRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/Registers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/register_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity register_file
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CompleteCrypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CompleteCrypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/Registers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/OutRegister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity OutRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/OutRegister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity OutRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/Registers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/OutRegister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity OutRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/Registers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/OutRegister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity OutRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/Registers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen2
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/LUT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/register_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity register_file
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen3
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_Crypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Crypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CompleteCrypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CompleteCrypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CombinationalLogic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CombinationalLogic
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_Crypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Crypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_Crypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Crypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen3
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/register_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity register_file
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/register_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity register_file
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen3
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/register_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity register_file
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/register_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity register_file
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CompleteCrypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CompleteCrypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CompleteCrypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CompleteCrypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CompleteCrypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CompleteCrypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/register_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity register_file
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CompleteCrypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CompleteCrypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen3
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_Crypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Crypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CompleteCrypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CompleteCrypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen3
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CompleteCrypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CompleteCrypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CompleteCrypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CompleteCrypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen3
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_Crypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Crypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CompleteCrypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CompleteCrypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CompleteCrypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CompleteCrypto

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/WeeklyLab/TrafficLightwStimulus/TrafficLightwStimulus.srcs/sources_1/new/fsm0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fsm0
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/WeeklyLab/TrafficLightwStimulus/TrafficLightwStimulus.srcs/sources_1/new/stimgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/WeeklyLab/TrafficLightwStimulus/TrafficLightwStimulus.srcs/sim_1/new/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb

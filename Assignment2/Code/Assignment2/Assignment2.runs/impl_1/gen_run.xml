@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010iclg225-1L" LaunchTime="1543439200">
+  <File Type="PA-TCL" Name="CombinationalLogic.tcl"/>
+  <File Type="REPORTS-TCL" Name="CombinationalLogic_reports.tcl"/>
+  <File Type="OPT-DCP" Name="CombinationalLogic_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="CombinationalLogic.hwdef"/>
+  <File Type="PWROPT-DCP" Name="CombinationalLogic_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="CombinationalLogic_placed.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="CombinationalLogic_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="CombinationalLogic_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="CombinationalLogic_physopt.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="CombinationalLogic_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="CombinationalLogic_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="CombinationalLogic_routed_bb.dcp"/>
+  <File Type="BG-BIT" Name="CombinationalLogic.bit"/>
+  <File Type="BG-BIN" Name="CombinationalLogic.bin"/>
+  <File Type="BITSTR-MSK" Name="CombinationalLogic.msk"/>
+  <File Type="ROUTE-TIMING-PB" Name="CombinationalLogic_timing_summary_routed.pb"/>
+  <File Type="BITSTR-RBT" Name="CombinationalLogic.rbt"/>
+  <File Type="BITSTR-NKY" Name="CombinationalLogic.nky"/>
+  <File Type="BITSTR-BMM" Name="CombinationalLogic_bd.bmm"/>
+  <File Type="BG-DRC" Name="CombinationalLogic.drc"/>
+  <File Type="BITSTR-MMI" Name="CombinationalLogic.mmi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-BGN" Name="CombinationalLogic.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="CombinationalLogic.sysdef"/>
+  <File Type="BITSTR-LTX" Name="CombinationalLogic.ltx"/>
+  <File Type="RDI-RDI" Name="CombinationalLogic.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="CombinationalLogic_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="CombinationalLogic_postroute_physopt.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/CombinationalLogic.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ALU.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Shifter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/LUT.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Registers.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/OutRegister.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/stimgen.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CombinationalLogic"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

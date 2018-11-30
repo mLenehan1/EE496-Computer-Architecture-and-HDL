@@ -53,7 +53,7 @@ begin
           ALU_out <= not A;
         when "0110" => -- Move
           ALU_out <= A;
-        when others => ALU_out <= A + B;
+        when others => ALU_out <= x"0000";
       end case;
   end process;
 end Behavioral;
