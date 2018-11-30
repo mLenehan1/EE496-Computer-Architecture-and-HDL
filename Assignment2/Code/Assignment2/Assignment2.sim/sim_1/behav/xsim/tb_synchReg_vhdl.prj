@@ -12,8 +12,10 @@ vhdl xil_defaultlib  \
 "../../../../Assignment2.srcs/sources_1/new/CtrlDecoder.vhd" \
 "../../../../Assignment2.srcs/sources_1/new/stimgen2.vhd" \
 "../../../../Assignment2.srcs/sources_1/new/CompleteCrypto.vhd" \
+"../../../../Assignment2.srcs/sources_1/new/stimgen3.vhd" \
 "../../../../Assignment2.srcs/sim_1/new/tb_combLogic.vhd" \
 "../../../../Assignment2.srcs/sim_1/new/tb_synchReg.vhd" \
+"../../../../Assignment2.srcs/sim_1/new/tb_Crypto.vhd" \
 
 # Do not sort compile order
 nosort

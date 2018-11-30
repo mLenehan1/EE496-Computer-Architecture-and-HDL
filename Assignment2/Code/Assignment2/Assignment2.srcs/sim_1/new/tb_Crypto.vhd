@@ -42,13 +42,14 @@ architecture struct of tb_Crypto is
   constant clk_period : time := 20ns;
   
   signal tb_clock, tb_reset : std_logic;
-  signal tb_Instruction,tb_Result : unsigned(N-1 downto 0);
+  signal tb_Instruction,tb_ResultOut, tb_ResultIn : unsigned(N-1 downto 0);
   signal tb_wrEnIn : std_logic;
   
   component CompleteCrypto is
     port( Instruction : in unsigned(N-1 downto 0);
           resetIn, clockIn, writeEnableIn  : in std_logic;
-          ResultIn : in unsigned(N-1 downto 0)
+          ResultIn : in unsigned(N-1 downto 0);
+          ResultOut : out unsigned(N-1 downto 0)
         );
   end component;
   component stimgen3
@@ -57,7 +58,8 @@ architecture struct of tb_Crypto is
           wen   : out STD_LOGIC;
           clock : out STD_LOGIC;
           reset : out STD_LOGIC;
-          result : in unsigned  (N-1 downto 0)
+          resultin  : out unsigned (N-1 downto 0);
+          resultout : in unsigned  (N-1 downto 0)
          );
     end component;
     
@@ -67,7 +69,8 @@ begin
               resetIn => tb_reset, 
               clockIn => tb_clock, 
               writeEnableIn => tb_wrEnIn,
-              ResultIn => tb_Result
+              ResultIn => tb_Resultout,
+              ResultOut => tb_Resultout
             );
    
    my_stimgen: stimgen3
@@ -76,7 +79,8 @@ begin
                wen => tb_wrEnIn,
                clock => tb_clock,
                reset => tb_reset,
-               result => tb_Result
+               resultin => tb_ResultIn,
+               resultout => tb_ResultOut
               );             
             
 end struct;

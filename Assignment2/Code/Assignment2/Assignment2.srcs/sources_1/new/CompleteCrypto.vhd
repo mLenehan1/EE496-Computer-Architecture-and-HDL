@@ -28,16 +28,17 @@ entity CompleteCrypto is
  port( Instruction : in unsigned(N-1 downto 0);
        resetIn, clockIn : in std_logic;
        writeEnableIn  : in std_logic;
-       ResultIn : in unsigned(N-1 downto 0)
+       ResultIn : in unsigned(N-1 downto 0);
+       ResultOut : out unsigned(N-1 downto 0)
      );
 end CompleteCrypto;
 
 architecture Behavioral of CompleteCrypto is
 
-  signal A_In, B_In, Result_Out : unsigned(N-1 downto 0);
+  signal A_In, B_In : unsigned(N-1 downto 0);
   signal OpCode, regASelIn, regBSelIn, writeRegSelIn : unsigned(M-1 downto 0);
-  signal writeEnableTmp : std_logic;
   signal Result_In : unsigned(N-1 downto 0);
+  signal writeEnableTmp : std_logic;
   
   component register_file
   port(  Abus          : out unsigned(15 downto 0);
@@ -64,7 +65,7 @@ begin
   Reg_Map : register_file
     port map(  Abus => A_In,
                Bbus => B_In,
-               result => ResultIn,
+               result => Result_In,
                writeEnable => writeEnableIn,
                regAsel => regASelIn,
                regBsel => regBSelIn,
@@ -77,17 +78,17 @@ begin
     port map( A_Bus => A_In,
               B_Bus => B_In,
               Ctrl => OpCode,
-              Result =>  Result_Out       
+              Result =>  Result_In      
             );
             
-  process(Instruction, Result_Out)
+  process(Instruction)
     begin
       OpCode <= Instruction(N-1 downto 3*M);
       regASelIn <= Instruction((3*M)-1 downto 2*M);
       regBSelIn <= Instruction((2*M)-1 downto M);
       writeRegSelIn <= Instruction(M-1 downto 0);
       writeEnableTmp <= writeEnableIn;
-      Result_Out <= ResultIn;
+      ResultOut <= Result_In;
 --    case(OpCode) is
 --      when x"7" => writeEnableTmp <= '0';
 --      when others => writeEnableTmp <= '1';

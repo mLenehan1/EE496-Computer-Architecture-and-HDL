@@ -305,3 +305,40 @@ INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/EC
 INFO: [VRFC 10-307] analyzing entity CompleteCrypto
 INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CompleteCrypto.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity CompleteCrypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CompleteCrypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CompleteCrypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_Crypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Crypto
+ERROR: [VRFC 10-2666] formal port resultin has no actual or default value [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_Crypto.vhd:66]
+ERROR: [VRFC 10-1504] unit struct ignored due to previous errors [/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_Crypto.vhd:40]
+INFO: [VRFC 10-240] VHDL file /home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_Crypto.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CompleteCrypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CompleteCrypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen3
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_Crypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Crypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen3
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CompleteCrypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CompleteCrypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CompleteCrypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CompleteCrypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_Crypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Crypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CompleteCrypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CompleteCrypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_Crypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Crypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen3
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_Crypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Crypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/stimgen3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stimgen3
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sim_1/new/tb_Crypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Crypto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/register_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity register_file
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mlenehan/Documents/Michael/ECE/ECE4/EE496/Assignment2/Code/Assignment2/Assignment2.srcs/sources_1/new/CompleteCrypto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CompleteCrypto

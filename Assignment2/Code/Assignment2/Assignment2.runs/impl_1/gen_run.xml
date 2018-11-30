@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7z010iclg225-1L" LaunchTime="1543439200">
-  <File Type="PA-TCL" Name="CombinationalLogic.tcl"/>
-  <File Type="REPORTS-TCL" Name="CombinationalLogic_reports.tcl"/>
-  <File Type="OPT-DCP" Name="CombinationalLogic_opt.dcp"/>
-  <File Type="OPT-HWDEF" Name="CombinationalLogic.hwdef"/>
-  <File Type="PWROPT-DCP" Name="CombinationalLogic_pwropt.dcp"/>
-  <File Type="PLACE-DCP" Name="CombinationalLogic_placed.dcp"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="CombinationalLogic_incremental_reuse_pre_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="CombinationalLogic_postplace_pwropt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="CombinationalLogic_physopt.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="CombinationalLogic_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="CombinationalLogic_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="CombinationalLogic_routed_bb.dcp"/>
-  <File Type="BG-BIT" Name="CombinationalLogic.bit"/>
-  <File Type="BG-BIN" Name="CombinationalLogic.bin"/>
-  <File Type="BITSTR-MSK" Name="CombinationalLogic.msk"/>
   <File Type="ROUTE-TIMING-PB" Name="CombinationalLogic_timing_summary_routed.pb"/>
+  <File Type="PA-TCL" Name="CombinationalLogic.tcl"/>
+  <File Type="BITSTR-MSK" Name="CombinationalLogic.msk"/>
+  <File Type="BG-BIN" Name="CombinationalLogic.bin"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="CombinationalLogic_routed_bb.dcp"/>
+  <File Type="BG-BGN" Name="CombinationalLogic.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="CombinationalLogic_postplace_pwropt.dcp"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="CombinationalLogic_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="CombinationalLogic_routed.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="CombinationalLogic_physopt.dcp"/>
+  <File Type="REPORTS-TCL" Name="CombinationalLogic_reports.tcl"/>
   <File Type="BITSTR-RBT" Name="CombinationalLogic.rbt"/>
+  <File Type="OPT-DCP" Name="CombinationalLogic_opt.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="CombinationalLogic_routed_error.dcp"/>
+  <File Type="BG-DRC" Name="CombinationalLogic.drc"/>
+  <File Type="OPT-HWDEF" Name="CombinationalLogic.hwdef"/>
+  <File Type="BG-BIT" Name="CombinationalLogic.bit"/>
+  <File Type="PLACE-DCP" Name="CombinationalLogic_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="CombinationalLogic_pwropt.dcp"/>
   <File Type="BITSTR-NKY" Name="CombinationalLogic.nky"/>
   <File Type="BITSTR-BMM" Name="CombinationalLogic_bd.bmm"/>
-  <File Type="BG-DRC" Name="CombinationalLogic.drc"/>
   <File Type="BITSTR-MMI" Name="CombinationalLogic.mmi"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="BG-BGN" Name="CombinationalLogic.bgn"/>
   <File Type="BITSTR-SYSDEF" Name="CombinationalLogic.sysdef"/>
   <File Type="BITSTR-LTX" Name="CombinationalLogic.ltx"/>
   <File Type="RDI-RDI" Name="CombinationalLogic.vdi"/>

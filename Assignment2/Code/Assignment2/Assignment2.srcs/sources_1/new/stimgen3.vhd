@@ -30,7 +30,8 @@ entity stimgen3 is
            wen   : out STD_LOGIC;
            clock : out STD_LOGIC;
            reset : out STD_LOGIC;
-           result : in unsigned  (15 downto 0)
+           resultin  : out unsigned (15 downto 0);
+           resultout : in unsigned  (15 downto 0)
           );
 end stimgen3;
 
@@ -59,6 +60,7 @@ begin
         -- Put system in reset
         Reset <= '0';
         Instruction <= x"0000";
+        ResultIn <= x"0000";
         
         wait for CLOCK_PERIOD;
         -- Take system out of reset
@@ -72,112 +74,123 @@ begin
         Instruction <= x"054C";
         wen <= '1';
         wait for 1.5*CLOCK_PERIOD;
-        if  result = x"E1E2" then
+        if  resultout = x"E1E2" then
            report "Passed test1";
         else
            report "failed test1" severity error;
            FAILED <= true;
         end if;
+        resultin <= resultout;
  
  -- test 2:
         Instruction <= x"4187";
          wen <= '1';
         wait for 1.5*CLOCK_PERIOD;
-         if result = x"0001" then
+         if resultout = x"0001" then
             report "Passed test2";
          else
             report "failed test2" severity error;
             FAILED <= true;
-         end if;       
+         end if; 
+         resultin <= resultout;
+      
 
 -- test 3:   
         Instruction <= x"80C0";
         wen <= '1';
         wait for 1.5*CLOCK_PERIOD;
-        if result = x"8281" then
+        if resultout = x"8281" then
            report "Passed test3";
         else
            report "failed test3" severity error;
            FAILED <= true;
         end if;           
- 
+        resultin <= resultout;
+
  -- test 4:
         Instruction <= x"A393";
         wen <= '1';
         wait for 1.5*CLOCK_PERIOD;
-    if result <= x"A35F" then
+    if resultout <= x"A35F" then
            report "Passed test4";
         else
            report "failed test4" severity error;
            FAILED <= true;
         end if;
+        resultin <= resultout;
 
  -- test 5:            
         Instruction <= x"007A";
         wen <= '1';
         wait for 1.5*CLOCK_PERIOD;
-        if result = x"8157" then
+        if resultout = x"8157" then
            report "Passed test5";
         else
            report "failed test5" severity error;
            FAILED <= true;
         end if;
-  
+        resultin <= resultout;
+
   -- test 6:  
         Instruction <= x"173C";
         wen <= '1';
         wait for 1.5*CLOCK_PERIOD;
-        if result = x"0DE2" then
+        if resultout = x"0DE2" then
            report "Passed test6";
         else
            report "failed test6" severity error;
            FAILED <= true;
         end if;
-         
+        resultin <= resultout;
+        
    -- test 7:    
         Instruction <= x"7000";
         wen <= '0';
         wait for 1.5*CLOCK_PERIOD;
-        if result = x"ABCD" then
+        if resultout = x"ABCD" then
            report "Passed test7";
         else
            report "failed test7" severity error;
            FAILED <= true;
         end if;
-        
+        resultin <= resultout;
+     
    -- test 8:
         Instruction <= x"2CA9";
         wen <= '1';
         wait for 1.5*CLOCK_PERIOD;
-        if result = x"C12B" then
+        if resultout = x"C12B" then
             report "Passed test8";
         else
             report "failed test8" severity error;
             FAILED <= true;
         end if;       
-       
+        resultin <= resultout;
+    
    -- test 9:  
         Instruction <= x"7000";
         wen <= '0';
         wait for 1.5*CLOCK_PERIOD;
-        if result = x"2BC1" then
+        if resultout = x"2BC1" then
            report "Passed test9";
         else
            report "failed test9" severity error;
            FAILED <= true;
         end if;           
-        
+        resultin <= resultout;
+     
    -- test 10:
         Instruction <= x"C922";
         wen <= '1';
         wait for 1.5*CLOCK_PERIOD;
-        if result = x"D140" then
+        if resultout = x"D140" then
            report "Passed test10";
         else
            report "failed test10" severity error;
            FAILED <= true;
         end if;
-        
+        resultin <= resultout;
+     
         wait for 5*CLOCK_PERIOD;                           
            
         end loop;  -- end round loop
