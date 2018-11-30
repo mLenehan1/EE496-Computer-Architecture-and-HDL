@@ -18,7 +18,7 @@ input bits for a value specified in the provided lookup table.
 The second section of this assignment focuses on the synchronous design elements,
 i.e. the memory registers used to store the values output from the combinational
 logic components. Initially both input and output register components must be
-createed and tested. Once working, A register file is used to model the memory of
+created and tested. Once working, A register file is used to model the memory of
 the completed system. The completed register file component must then be combined
 with the combinational logic components, giving the completed crypto coprocessor 
 
@@ -98,7 +98,7 @@ operation tables, found below:
 \label{lut1}
 \end{figure}
 
-The expanded diagram below displays the the index of the bits which may be
+The expanded diagram below displays the index of the bits which may be
 passed through the component unchanged. Bits 7-4 are substituted as specified
 in S-Box 1, with bits 3-0 substituted as specified in S-Box 2.
 
@@ -236,7 +236,7 @@ to ensure that the system is operating correctly.
  
 # Results
 
-The following results were obtained from the completion of the the combinational
+The following results were obtained from the completion of the combinational
 and synchronous sections of the assignment.
 
 ## Combinational Logic
@@ -283,7 +283,7 @@ generates the following schematic:
 ### LUT
 
 The Lookup Substitution component performs substitutions based in the input
-16-bit values. The upper byte of the input value must pass through unnafected,
+16-bit values. The upper byte of the input value must pass through unaffected,
 with each of the lower four bits having their values substituted. Using two case
 statements, the upper 4-bits of the lower byte, and the lower 4-bits of the lower
 byte have their values substituted. These new values are then recombined with
@@ -438,7 +438,7 @@ The Result output was then compared with an expected output, logging a "passed"
 or "failed" message to the console.
 
 The A bus, B bus, and expected results used in the test are contained in the following
-table (in hexidecimal representation):
+table (in hexadecimal representation):
 
 | Index | OpCode | RA | RB | Expected Result |
 |:-:|:-:|:-:|:-:|:-:|
@@ -535,7 +535,7 @@ of the test.
 
 # Conclusion
 
-This assignment afforded an opportunity to become more failiar with the testing
+This assignment afforded an opportunity to become more familiar with the testing
 process in VHDL. The use of testbenches and stimulus generators showed how
 correct operation of components and systems can be confirmed. 
 
@@ -543,6 +543,11 @@ The assignment also provided experience in using timing, clock signals, and
 memory elements. These aspects must be used to correctly implement the 
 registers and register file, which must have reset, and synchronous/asynchronous
 read or write capabilities.
+
+Although there are aspects of this assignment which do not operate correctly,
+many of these are due to issues with mapping the inputs and outputs of the
+testbench correctly, and not issues with the components themselves. With
+further work these can be completed to a more satisfactory level. 
 
 # Appendix
 
